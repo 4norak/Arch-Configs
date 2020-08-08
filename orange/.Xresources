@@ -1,0 +1,73 @@
+// scrollbar
+URxvt.scrollBar:    false
+
+// font
+URxvt.font: xft:DejaVu Sans Mono:style=Bold:size=11
+
+// special
+urxvt*depth:        32
+URxvt.foreground:   #d5d5c1
+URxvt.background:   rgba:0000/0000/0000/8000
+URxvt.cursor:       #ffffff
+
+sxiv*depth:         32
+Sxiv.background:    #000000
+Sxiv.foreground:    #cacaca
+
+#define base00 #1d2021
+#define base01 #3c3836
+#define base02 #504945
+#define base03 #817271
+#define base04 #bdae93
+#define base05 #d5d5c1
+#define base06 #ebdbb2
+#define base07 #fbf1c7
+#define base08 #fb4934
+#define base09 #fe8019
+#define base0A #fabd2f
+#define base0B #ff8c00
+#define base0C #8ec07c
+#define base0D #83a598
+#define base0E #ba50b6
+#define base0F #d65d0e
+
+*.color0:       base00
+*.color1:       base0C
+*.color2:       base0B
+*.color3:       base08
+*.color4:       base0D
+*.color5:       base0E
+*.color6:       base0A
+*.color7:       base05
+
+*.color8:       base03
+*.color9:       base0C
+*.color10:      base0B
+*.color11:      base08
+*.color12:      base0D
+*.color13:      base0E
+*.color14:      base0A
+*.color15:      base07
+
+*.color16:      base09
+*.color17:      base0F
+*.color18:      base01
+*.color19:      base02
+*.color20:      base04
+*.color21:      base06
+
+// disable iso-modes
+URxvt.iso14755:     false
+URxvt.iso14755_52:  false
+
+// set copy and paste shortcuts
+URxvt.keysym.C-S-V: eval:paste_clipboard
+URxvt.keysym.C-S-C: eval:selection_to_clipboard
+URxvt.keysym.C-M-C: builtin-string:
+URxvt.keysym.C-M-V: builtin-string:
+
+// Set Ctrl+Arrow bavior
+URxvt.keysym.C-UP:      \033[1;5A
+URxvt.keysym.C-Down:    \033[1;5B
+URxvt.keysym.C-Right:   \033[1;5C
+URxvt.keysym.C-Left:    \033[1;5D

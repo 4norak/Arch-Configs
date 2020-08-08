@@ -1,0 +1,64 @@
+// scrollbar
+URxvt.scrollBar:    false
+
+// font
+URxvt.font: xft:DejaVu Sans Mono:style=Bold:size=11
+
+// special
+urxvt*depth:        32
+URxvt.foreground:   #d8d8d8
+URxvt.background:   rgba:0000/0000/0000/8000
+URxvt.cursor:       #ffffff
+
+sxiv*depth:         32
+Sxiv.background:    #000000
+Sxiv.foreground:    #cacaca
+
+
+// black
+URxvt.color0:   #1b1d1e
+URxvt.color8:   #505354
+
+// red
+URxvt.color1:   #f92672
+URxvt.color9:   #ff5995
+
+// green
+URxvt.color2:   #82b414
+URxvt.color10:  #b6e354
+
+// yellow
+URxvt.color3:   #fd971f
+URxvt.color11:  #feed6c
+
+// blue
+URxvt.color4:   #0077dd
+URxvt.color12:  #4444AA
+
+// magenta
+URxvt.color5:   #8c54fe
+URxvt.color13:  #9e6ffe
+
+// cyan
+URxvt.color6:   #465457
+URxvt.color14:  #899ca1
+
+// white
+URxvt.color7:   #ccccc6
+URxvt.color15:  #f8f8f2
+
+// disable iso-modes
+URxvt.iso14755:     false
+URxvt.iso14755_52:  false
+
+// set copy and paste shortcuts
+URxvt.keysym.C-S-V: eval:paste_clipboard
+URxvt.keysym.C-S-C: eval:selection_to_clipboard
+URxvt.keysym.C-M-C: builtin-string:
+URxvt.keysym.C-M-V: builtin-string:
+
+// Set Ctrl+Arrow bavior
+URxvt.keysym.C-UP:      \033[1;5A
+URxvt.keysym.C-Down:    \033[1;5B
+URxvt.keysym.C-Right:   \033[1;5C
+URxvt.keysym.C-Left:    \033[1;5D
